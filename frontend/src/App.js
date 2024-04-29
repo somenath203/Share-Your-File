@@ -180,7 +180,7 @@ const App = () => {
           </p>
           <a href={generatedURL}>
             <p className="text-base text-green-600 text-center font-semibold">
-              Click the icon below to copy the Sharable URL in your clipboard.
+              Click the icon below to copy the Sharable URL in your clipboard and then paste the URL in browser and hit enter to download the file.
             </p>
           </a>
           <p>
