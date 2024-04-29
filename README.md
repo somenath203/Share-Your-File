@@ -1,4 +1,4 @@
-# Share Your Files
+# Share Your File
 
 This is a web tool that let users share files easily. Just upload your files, and it will give you a link to share them.
 
