@@ -157,7 +157,7 @@ const App = () => {
 
         <div className="text-center mt-14 px-4 lg:px-8">
           <span className="text-green-400 font-semibold text-lg lg:text-xl tracking-wider">
-            ShareYourFile is an Open Source Tool to share file with anyone.
+            ShareYourFile is an Open Source Tool that let you share your files with anyone.
             ShareYourFile is created with the help of ReactJS, antd, TailwindCSS
             and ExpressJS.
           </span>
