@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import axios from 'axios';
 import { useState } from 'react';
 import { Upload, Form } from 'antd';
@@ -69,7 +70,7 @@ const App = () => {
 
       isShowModalClose();
 
-      message.error('Something went wrong or no file was uploded!! Please try after sometime.', 4);
+      message.error('Something went wrong or no file was uploded!! Please try again after sometime.', 4);
 
       setLoading(false);
 
@@ -94,9 +95,11 @@ const App = () => {
           ShareYourFile
         </div>
 
-        <div className="text-3xl text-green-400">
-          <GithubOutlined />
-        </div>
+        <a href="https://github.com/somenath203/Share-Your-File" target='_blank'>
+          <div className="text-3xl text-green-400">
+            <GithubOutlined />
+          </div>
+        </a>
 
       </div>
 
@@ -180,7 +183,7 @@ const App = () => {
           </p>
           <a href={generatedURL}>
             <p className="text-base text-green-600 text-center font-semibold">
-              Click the icon below to copy the Sharable URL in your clipboard and then paste the URL in browser and hit enter to download the file.
+              Click the icon below to copy the Sharable URL in your clipboard, paste the URL in a browser and hit enter to download the file.
             </p>
           </a>
           <p>
