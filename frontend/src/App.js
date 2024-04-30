@@ -181,11 +181,11 @@ const App = () => {
           <p className="text-xl text-green-500 tracking-wide font-semibold text-center">
             Sharable URL of the Uploaded File
           </p>
-          <a href={generatedURL}>
-            <p className="text-base text-green-600 text-center font-semibold">
-              Click the icon below to copy the Sharable URL in your clipboard, paste the URL in a browser and hit enter to download the file.
-            </p>
-          </a>
+
+          <p className="text-base text-green-600 text-center font-semibold">
+            Click the icon below to copy the Sharable URL in your clipboard, paste the URL in a browser and hit enter to download the file.
+          </p>
+
           <p>
             <CopyOutlined className="text-xl text-green-600" onClick={copyLinkToClipboard} />
           </p>
