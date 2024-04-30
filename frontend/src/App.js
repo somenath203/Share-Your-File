@@ -70,7 +70,7 @@ const App = () => {
 
       isShowModalClose();
 
-      message.error('Something went wrong or no file was uploded!! Please try again after sometime.', 4);
+      message.error('Something went wrong or no file was uploaded!! Please try again after sometime.', 4);
 
       setLoading(false);
 
